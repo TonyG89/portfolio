@@ -1,0 +1,214 @@
+[
+    {
+        "Developers": {
+            "demo": "https://tonyg89.github.io/developers-ad-landing-TEST/", 
+            "type": "one page", 
+            "description": [
+                "HTML", 
+                "SCSS", 
+                "js (burger,  slider,  accordion)", 
+                "ADAPTIVE"
+            ], 
+            "code": "https://github.com/TonyG89/developers-ad-landing-TEST", 
+            "rate": 1
+        }, 
+        "Monvalise": {
+            "demo": "https://tonyg89.github.io/BS5-shop-monvalise-TEST/", 
+            "type": "first page,  shop", 
+            "description": [
+                "html", 
+                "bootstrap 5", 
+                "js"
+            ], 
+            "code": "https://github.com/TonyG89/BS5-shop-TEST", 
+            "rate": 2
+        }, 
+        "Rocc": {
+            "demo": "https://tonyg89.github.io/FIGMA.HTML-rocc/", 
+            "type": "landing page", 
+            "description": [
+                "html", 
+                "css", 
+                "figma"
+            ], 
+            "code": "https://github.com/TonyG89/", 
+            "rate": 3
+        }, 
+        "NoBank": {
+            "demo": "https://react-tailwind-nobank.vercel.app/", 
+            "type": "landing page", 
+            "description": [
+                "react js", 
+                "tailwind css", 
+                "ADAPTIVE"
+            ], 
+            "code": "https://github.com/TonyG89/REACT-TAILWIND-nobank", 
+            "rate": 1
+        }, 
+        "PLAIN CLOTHES": {
+            "demo": "https://tonyg89.github.io/REACT-TooMuch", 
+            "type": "shop REACT", 
+            "description": [
+                "ReactJS(Hooks,  Router,  Context,  Skeleton)", 
+                "Axios", 
+                "SCSS", 
+                "mockapi.io", 
+                "ADAPTIVE"
+            ], 
+            "code": "https://github.com/TonyG89/REACT-TooMuch", 
+            "rate": 1
+        }, 
+        "BLANK CLOTHES": {
+            "demo": "https://tmpc-react-3u309zdol-okylistik.vercel.app/", 
+            "type": "shop REACT", 
+            "description": [
+                "TypeScript", 
+                "ReactJS (Router v6,  Content Loader,  Pagination,  Loadable)", 
+                "Redux Toolkit", 
+                "Lodash,  Debounce", 
+                "Code Splitting", 
+                "useWhyDidYouUpdate", 
+                "Axios + Fetch", 
+                "SCSS(CSS-Modules)", 
+                "ADAPTIVE"
+            ], 
+            "code": "https://github.com/TonyG89/REACT-TYPESCRIPT-tmp-v2", 
+            "rate": 1
+        }, 
+        "gulp": {
+            "demo": "#", 
+            "type": " ", 
+            "description": [
+                ""
+            ], 
+            "code": "https://github.com/TonyG89/GULP-HTML-TEST", 
+            "rate": 10
+        }, 
+        "TMPclothes (developing)": {
+            "demo": "https://tonyg89.github.io/TAILWIND-tmpclothes/", 
+            "type": "landing page", 
+            "description": [
+                "tailwind", 
+                "javascript"
+            ], 
+            "code": "https://github.com/TonyG89/TAILWIND-tmpclothes", 
+            "rate": 10
+        }, 
+        "FOOD": {
+            "demo": "https://tonyg89.github.io/JS-food-will-pushed/", 
+            "type": "landing page", 
+            "description": [
+                "js", 
+                "php", 
+                "webpack"
+            ], 
+            "code": "https://github.com/TonyG89/JS-food-will-pushed/", 
+            "rate": 10
+        }, 
+        "Post Form": {
+            "demo": "https://tonyg89.github.io/BS4-form-TEST/", 
+            "type": "component", 
+            "description": [
+                "qjuery", 
+                "bootstrap 4", 
+                "php (post form to txt file)", 
+                "form (validation)", 
+                "ADAPTIVE"
+            ], 
+            "code": "https://github.com/TonyG89/BS4-form-TEST", 
+            "rate": 2
+        }, 
+        "Slider": {
+            "demo": "https://tonyg89.github.io/JS-slider-simple/", 
+            "type": "component", 
+            "description": [
+                "js"
+            ], 
+            "code": "https://github.com/TonyG89/JS-slider-simple", 
+            "rate": 3
+        }, 
+        "Tabs": {
+            "demo": "https://tonyg89.github.io/JS-tabs/", 
+            "type": "component", 
+            "description": [
+                "js"
+            ], 
+            "code": "https://github.com/TonyG89/JS-tabs", 
+            "rate": 4
+        }, 
+        "Medical chat": {
+            "demo": "https://TonyG89.github.io/JS-SpaceProfitTeam-TEST", 
+            "type": "component", 
+            "description": [
+                "js"
+            ], 
+            "code": "https://github.com/TonyG89/JS-SpaceProfitTeam-TEST", 
+            "rate": 4
+        }, 
+        "History of Skateboarding": {
+            "demo": "https://tonyg89.github.io/JS-dom/", 
+            "type": "one page", 
+            "description": [
+                "javascript", 
+                "css-animation", 
+                "fetch(json)"
+            ], 
+            "code": "https://github.com/TonyG89/JS-dom/", 
+            "rate": 4
+        }, 
+        "React projects": {
+            "demo": "https://github.com/TonyG89/react-beginner-projects", 
+            "type": "components REACT", 
+            "description": [
+                ""
+            ], 
+            "code": "#", 
+            "rate": 10
+        }, 
+        "demontazh.kiev.ua": {
+            "demo": "https://github.com/TonyG89/demontazh.kiev.ua", 
+            "type": "landing page", 
+            "description": [
+                "HTML", 
+                "CSS", 
+                "PHP"
+            ], 
+            "code": "https://tonyg89.github.io/demontazh.kiev.ua/", 
+            "rate": 10
+        }, 
+        "Memory Card": {
+            "demo": "https://tonyg89.github.io/JS-memoryCard/", 
+            "type": "concentration (card game)", 
+            "description": [
+                "JS", 
+                "Shuffle Array", 
+                "SCSS", 
+                "CSS3 Transitions", 
+                "Flip Animation"
+            ], 
+            "code": "https://github.com/TonyG89/JS-memoryCard", 
+            "rate": 2
+        }, 
+        "Frogger": {
+            "demo": "https://github.com/TonyG89/JS-OOP-frogger", 
+            "type": "classic arcade game", 
+            "description": [
+                "JS", 
+                "OOP"
+            ], 
+            "code": "https://github.com/TonyG89/JS-OOP-frogger/blob/master/js/app.js", 
+            "rate": 2
+        }, 
+        "Friends-app": {
+            "demo": "https://tonyg89.github.io/friends-app/", 
+            "type": "component", 
+            "description": [
+                "js (fetch,  async/await)", 
+                "bootstrap 5", 
+                "REST API"
+            ], 
+            "code": "https://github.com/TonyG89/friends-app", 
+            "rate": 2
+        }
+    }
+]

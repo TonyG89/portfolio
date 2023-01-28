@@ -1,0 +1,48 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Caveat&family=Fredericka+the+Great&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <section class=" p-10 items-center w-[960px] bg-green-100
+            mx-auto">
+            <h1
+                class="text-7xl mb-10 text-teal-900"
+                style="font-family: 'Fredericka the Great', cursive;">My
+                portfolio</h1>
+            <div
+                class="box-content table-card bg-gradient-to-r from-slate-800
+                to-slate-700
+                flex flex-1 flex-wrap justify-around
+                p-5
+                border-8 border-black
+                ">
+            </div>
+            <footer class="mt-10 flex items-center justify-center">
+                <a class="flex" href="https://github.com/TonyG89">
+                    <img class="mt-1 h-4"
+                        src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png"
+                        alt="github">github.com
+                </a>
+            </footer>
+        </section>
+        <!-- Load React. -->
+        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <script src="https://unpkg.com/react@18/umd/react.development.js"
+            crossorigin></script>
+        <script
+            src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+            crossorigin></script>
+        <!-- Load our React component. -->
+        <script src="./app.js"></script>
+    </body>
+</html>
