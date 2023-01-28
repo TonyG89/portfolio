@@ -10,7 +10,7 @@ fetch("./db.json")
             if (arr[name].rate < 3) {
                 const stack = arr[name].description
                 let stackBlock = ""
-                stack.forEach(stack => stackBlock += `<li>${stack}</li>`)
+                stack.forEach(stack => stackBlock += `<li class="hover:text-amber-100 cursor-pointer">${stack}</li>`)
                 table.innerHTML += `<div 
                                 class="card box-border
                                 text-teal-50
@@ -27,12 +27,12 @@ fetch("./db.json")
                                         >${stackBlock}
                                         </div>
                                     </div>
-                                    <div class="buttons flex justify-between mt-10">
+                                    <div class="as flex justify-between mt-10">
                                         <div class="btn-code border-2 rounded-xl px-2 py-1                  border-amber-200 text-amber-200 hover:border-amber-400 hover:text-amber-400 hover:">
-                                            <button>Code</button>
+                                            <a href="${arr[name].code}" target="_blank">Code</a>
                                         </div>
                                         <div class="btn-demo border-2 rounded-xl px-2 py-1                  border-lime-200 text-lime-200  hover:border-lime-400 hover:text-lime-400 hover:">           
-                                            <button>Demo</button>
+                                            <a href="${arr[name].demo}" target="_blank">Demo</a>
                                             </div>
                                         </div>
                                     </div>`
