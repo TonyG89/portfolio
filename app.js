@@ -27,7 +27,7 @@ fetch("./db.json")
                                         >${stackBlock}
                                         </div>
                                     </div>
-                                    <div class="as flex justify-between mt-10">
+                                    <div class="flex justify-between mt-4">
                                         <div class="btn-code border-2 rounded-xl px-2 py-1                  border-amber-200 text-amber-200 hover:border-amber-400 hover:text-amber-400 hover:">
                                             <a href="${arr[name].code}" target="_blank">Code</a>
                                         </div>
