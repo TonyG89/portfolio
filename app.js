@@ -5,24 +5,24 @@ fetch("./db.json")
     .then(res => res.json())
     .then(data => {
         const arr = data[0]
-
         for (let name in arr) {
             if (arr[name].rate < 3) {
                 const stack = arr[name].description
                 let stackBlock = ""
-                stack.forEach(stack => stackBlock += `<li class="hover:text-amber-100 cursor-pointer">${stack}</li>`)
+                stack.forEach(stack => stackBlock += `<li class="hover:text-amber-100 cursor-pointer text-lg">${stack}</li>`)
                 table.innerHTML += `<div 
                                 class="card box-border
                                 text-teal-50
                                 border rounded-md mb-10 p-3 mx-2
-                                w-[240px]
+                                w-[236px]
                                 flex flex-col justify-between
                                 "
                                 style="font-family: 'Fredericka the Great', cursive;"
                                 >
                                     <div class="">
-                                        <h2 class="text-2xl mb-2 border-b-4">${name}</h2>
+                                        <h2 class="text-2xl mb-2 border-b-4 w-full relative">${name}<span class="text-amber-300 text-right align-text-top absolute date " style="font-family: 'Caveat', cursive;">${arr[name].create}</span></h2>
                                         <div 
+                                        class="uppercase"
                                         style="font-family: 'Caveat', cursive;"
                                         >${stackBlock}
                                         </div>
