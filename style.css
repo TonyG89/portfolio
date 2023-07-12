@@ -1,5 +1,51 @@
-.date{
-  top:-15px;
-  right:-5px;
+.date {
+  top: -22px;
+  right: -5px;
   font-size: 13px;
+}
+
+.box-border {
+  transition: all .3s ease-in-out;
+}
+
+.box-border:hover {
+  transition: all 0.2s ease-in-out;
+  transform: translateX(-2px) translateY(-2px) scale(1.02);
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.758);
+}
+
+.box-border:active {
+  transition: all 1s ease-in-out;
+  transform: scale(1);
+}
+
+.hint {
+  font-size: 13px;
+  margin: 5px;
+  text-transform: lowercase;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  color: rgba(255, 78, 78, 0.4);
+}
+
+.hint:hover {
+  color: rgba(255, 78, 78);
+  text-decoration: dashed;
+  transition: all 0.5s ease-in-out;
+}
+
+.hint>span {
+  color: rgb(150, 150, 150);
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+btn:hover{
+  transition: all 0.2s ease-in-out;
+  transform: translateX(-1px) translateY(-1px) ;
+  box-shadow: 2px 2px  rgba(0, 0, 0, 0.758);
+}
+
+.chip{
+  font-family: 'Fredericka the Great', cursive;
 }
