@@ -21,7 +21,7 @@
             "demo": "https://tonyg89.github.io/JS-slider-simple/",
             "type": "component",
             "description": [
-                "js"
+                "javascript"
             ],
             "code": "https://github.com/TonyG89/JS-slider-simple",
             "rate": 3,
@@ -35,7 +35,7 @@
             "demo": "https://TonyG89.github.io/JS-SpaceProfitTeam-TEST",
             "type": "component",
             "description": [
-                "js"
+                "javascript"
             ],
             "code": "https://github.com/TonyG89/JS-SpaceProfitTeam-TEST",
             "rate": 3,
@@ -49,7 +49,7 @@
             "demo": "https://tonyg89.github.io/JS-OOP-frogger/",
             "type": "classic arcade game",
             "description": [
-                "JS",
+                "javascript",
                 "OOP"
             ],
             "code": "https://github.com/TonyG89/JS-OOP-frogger/blob/master/js/app.js",
@@ -80,7 +80,7 @@
             "demo": "https://tonyg89.github.io/JS-memoryCard/",
             "type": "concentration (card game)",
             "description": [
-                "JS",
+                "javascript",
                 "Shuffle Array",
                 "SCSS",
                 "CSS3 Transitions",
@@ -98,7 +98,7 @@
             "demo": "https://tonyg89.github.io/friends-app/",
             "type": "component",
             "description": [
-                "js (fetch,  async/await)",
+                "javascript (fetch,  async/await)",
                 "bootstrap 5",
                 "REST API"
             ],
@@ -116,7 +116,7 @@
             "description": [
                 "html",
                 "bootstrap 5",
-                "js"
+                "javascript"
             ],
             "code": "https://github.com/TonyG89/BS5-shop-TEST",
             "rate": 2,
@@ -169,7 +169,7 @@
                 "TypeScript",
                 "ReactJS (Router v6,  Content Loader,  Pagination,  Loadable)",
                 "Redux Toolkit",
-                "Lodash,  Debounce",
+                "Lodash, Debounce",
                 "Code Splitting",
                 "useWhyDidYouUpdate",
                 "Axios + Fetch",
@@ -190,7 +190,7 @@
             "description": [
                 "HTML",
                 "SCSS",
-                "js (burger,  slider,  accordion)",
+                "javascript (burger,  slider,  accordion)",
                 "ADAPTIVE"
             ],
             "code": "https://github.com/TonyG89/developers-ad-landing-TEST",
@@ -211,7 +211,7 @@
             ],
             "code": "https://github.com/TonyG89/REACT-TAILWIND-nobank",
             "rate": 1,
-            "hint": "test task",
+            "hint": "figma",
             "create": "Dec 26, 2022"
         }
     },
@@ -250,7 +250,7 @@
             "demo": "https://tonyg89.github.io/JS-food-will-pushed/",
             "type": "landing page",
             "description": [
-                "js",
+                "javascript",
                 "php",
                 "webpack"
             ],
@@ -266,7 +266,7 @@
             "demo": "https://tonyg89.github.io/JS-tabs/",
             "type": "component",
             "description": [
-                "js"
+                "javascript"
             ],
             "code": "https://github.com/TonyG89/JS-tabs",
             "rate": 4,
@@ -327,7 +327,7 @@
     {
         "LogBook": {
             "title": "LogBook",
-            "demo": "https://vercel.com/okylistik/logbook-v2-test",
+            "demo": "https://logbook-v2-test.vercel.app/",
             "type": "Vue app",
             "description": [
                 "javascript",
