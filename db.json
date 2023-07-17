@@ -19,7 +19,7 @@
         "Slider": {
             "title": "Slider",
             "demo": "https://tonyg89.github.io/JS-slider-simple/",
-            "type": "component",
+            "type": "component, courses",
             "description": [
                 "javascript"
             ],
@@ -47,7 +47,7 @@
         "Frogger": {
             "title": "Frogger",
             "demo": "https://tonyg89.github.io/JS-OOP-frogger/",
-            "type": "classic arcade game",
+            "type": "classic arcade game, courses",
             "description": [
                 "javascript",
                 "OOP"
@@ -78,7 +78,7 @@
         "Memory Card": {
             "title": "Memory Card",
             "demo": "https://tonyg89.github.io/JS-memoryCard/",
-            "type": "concentration (card game)",
+            "type": "concentration (card game), courses",
             "description": [
                 "javascript",
                 "Shuffle Array",
@@ -96,7 +96,7 @@
         "Friends-app": {
             "title": "Friends-app",
             "demo": "https://tonyg89.github.io/friends-app/",
-            "type": "component",
+            "type": "component, courses",
             "description": [
                 "javascript (fetch,  async/await)",
                 "bootstrap 5",
@@ -264,7 +264,7 @@
         "Tabs": {
             "title": "Tabs",
             "demo": "https://tonyg89.github.io/JS-tabs/",
-            "type": "component",
+            "type": "component, courses",
             "description": [
                 "javascript"
             ],
@@ -278,7 +278,7 @@
         "History of Skateboarding": {
             "title": "History of Skateboarding",
             "demo": "https://tonyg89.github.io/JS-dom/",
-            "type": "one page",
+            "type": "one page, courses",
             "description": [
                 "javascript",
                 "css-animation",
