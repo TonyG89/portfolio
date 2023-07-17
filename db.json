@@ -2,14 +2,14 @@
     {
         "demontazh.kiev": {
             "title": "demontazh.kiev",
-            "demo": "https://github.com/TonyG89/demontazh.kiev.ua",
+            "demo": "https://tonyg89.github.io/demontazh.kiev.ua/",
             "type": "landing page",
             "description": [
                 "HTML",
                 "CSS",
                 "PHP"
             ],
-            "code": "https://tonyg89.github.io/demontazh.kiev.ua/",
+            "code": "https://github.com/TonyG89/demontazh.kiev.ua",
             "rate": 3,
             "hint": "freelance",
             "create": "2014-2015"
