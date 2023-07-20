@@ -25,8 +25,8 @@ const filtered = (data, filt = filterValue) => {
 
 
 chipsContent.forEach(chip => {
-    const active = chip === 'ALL' ? 'bg-slate-700' : 'bg-slate-500'
-    chips.innerHTML += `<li class="chip rounded-xl px-2 m-1 text-gray-50 border-2 border-black cursor-pointer ${active}">${chip}</li>`
+    const active = chip === 'ALL' ? 'bg-slate-700 text-lime-300' : 'bg-slate-500'
+    chips.innerHTML += `<li class="chip hover:text-amber-200 rounded-xl max-sm:text-sm px-2 m-1 text-gray-50 border-2 border-black cursor-pointer ${active}">${chip}</li>`
 })
 chips.addEventListener('click', (e) => {
     const chip = e.target
@@ -34,9 +34,11 @@ chips.addEventListener('click', (e) => {
     if (chip.classList.contains('chip')) {
         document.querySelectorAll('.chip').forEach(item => {
             item.classList.remove('bg-slate-700')
+            item.classList.remove('text-lime-300')
             item.classList.add('bg-slate-500')
         })
         chip.classList.add('bg-slate-700')
+        chip.classList.add('text-lime-300')
         // const lowerCaseChips = chipsContent.map(item => item.toLocaleLowerCase() === chip.innerText.toLowerCase() && filterValueArray.push(item))
         filterValue = chip.innerText.toLowerCase()
         loadData()
@@ -105,14 +107,15 @@ const renderData = (data, loaded = true) => {
                     table.innerHTML += `<div
                     class="card box-border
                     text-teal-50
-                border rounded-md mb-10 p-3 mx-2
-                w-[236px]
+                    w-full
+                    mx-auto
+                border rounded-md mb-4 p-3
                 flex flex-col justify-between
                 "
                 style="font-family: 'Fredericka the Great', cursive;"
                 >
                 <div class="">
-                <h2 class="text-xl my-2 border-b-4 w-full relative">${project.title}<span class="text-amber-300 text-right align-text-top absolute date " style="font-family: 'Caveat', cursive;">${project.create}</span></h2>
+                <h2 class="text-xl my-2 border-b-4 w-full relative">${project.title}<span class="text-amber-300 text-right align-text-top absolute date " style="font-family: 'Caveat', cursive;">${project.created}</span></h2>
                 <div
                 class="uppercase"
                 style="font-family: 'Caveat', cursive;"

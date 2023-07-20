@@ -60,6 +60,10 @@ btn:hover{
 	background-color: Caveat;
 }
 
+.card{
+	max-width: 360px;
+}
+
 .smiley {
 	width: 8em;
 	height: 8em;

@@ -12,32 +12,49 @@
         <link rel="stylesheet" href="style.css">
         <title>Portfolio</title>
     </head>
-    <body class="bg-green-100">
-        <section class=" p-10 items-center w-[960px]
-            mx-auto">
+    <body
+        class="bg-green-100 max-md:bg-gradient-to-r from-slate-800 to-slate-700">
+        <section class="p-4 sm:p-10 items-center mx-auto">
             <h1
-                class="text-7xl mb-10 text-teal-900"
-                style="font-family: 'Fredericka the Great', cursive;">My
-                portfolio</h1>
-            <div class="flex items-center mb-2">
+                class="text-[2.7rem] text-center sm:text-left mb-2 max-md:text-slate-400 min-[440px]:text-6xl min-[505px]:text-7xl sm:mb-10 text-teal-900"
+                style="font-family: 'Fredericka the Great', cursive;">
+                My portfolio</h1>
+            <div class="
+            flex items-center mb-2
+            max-md:flex-col
+            ">
                 <h3 style="font-family: 'Caveat'"
-                    class="uppercase text-2xl mr-2">filtration:</h3>
-                <ul class="chips flex">
+                    class="uppercase text-2xl mr-2 max-md:mb-2 max-md:text-slate-500">filtration:</h3>
+                <ul class="
+                chips flex flex-wrap
+                justify-center align-center
+                max-lg:grid grid-cols-4 max-lg:w-full
+                max-md:flex
+                ">
                 </ul>
             </div>
             <!-- <div class="loader">
                 <img src="./loader.svg" />
             </div> -->
             <div
-                class="box-content table-card bg-gradient-to-r from-slate-800
-                to-slate-700
-                flex flex-1 flex-wrap justify-around
-                p-5
-                border-8 border-black
+                class="box-content table-card
+                bg-gradient-to-r from-slate-800 to-slate-700
+                p-5 border-8 border-black
+                max-md:bg-none
+                max-md:border-none
+                max-md:p-0
+                min-h-[140px]
+                grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
                 ">
                 <svg role="img"
                     aria-label="Mouth and eyes come from 9:00 and rotate clockwise into position, right eye blinks, then all parts rotate and merge into 3:00"
-                    class="smiley" viewBox="0 0 128 128" width="128px"
+                    class="smiley mx-auto
+                    sm:absolute
+                    sm:left-[50%]
+                    sm:translate-x-[-50%]
+                    lg:static
+                    lg:col-start-2 lg:col-end-3" viewBox="0 0 128 128"
+                    width="128px"
                     height="128px">
                     <defs>
                         <clippath id="smiley-eyes">
