@@ -105,33 +105,31 @@ const renderData = (data, loaded = true) => {
                     let stackBlock = ""
                     stack.forEach(stack => stackBlock += `<li class="hover:text-amber-100 cursor-pointer text-lg">${stack}</li>`)
                     table.innerHTML += `<div
-                    class="card box-border
-                    text-teal-50
-                    w-full
-                    mx-auto
-                border rounded-md mb-4 p-3
-                flex flex-col justify-between
-                "
-                style="font-family: 'Fredericka the Great', cursive;"
-                >
-                <div class="">
-                <h2 class="text-xl my-2 border-b-4 w-full relative">${project.title}<span class="text-amber-300 text-right align-text-top absolute date " style="font-family: 'Caveat', cursive;">${project.created}</span></h2>
-                <div
-                class="uppercase"
-                style="font-family: 'Caveat', cursive;"
-                >${stackBlock}
-                </div>
-                </div>
-                <div class="flex justify-between place-items-center mt-4">
-                <btn class="btn-code border-2 rounded-xl px-2 py-1 border-amber-200 text-amber-200 hover:border-amber-400 hover:text-amber-400 hover:">
-                <a href="${project.code}" target="_blank">Code</a>
-                </btn>
-                <div class="hint"><span>${project.hint && 'project'}</span><br>${project.hint ?? ''}</div>
-                <btn class="btn-demo border-2 rounded-xl px-2 py-1                  border-lime-200 text-lime-200  hover:border-lime-400 hover:text-lime-400 hover:">
-                <a href="${project.demo}" target="_blank">Demo</a>
-                </btn>
-                </div>
-                </div>`
+                                        class="card box-border
+                                        text-teal-50
+                                        w-full
+                                        mx-auto
+                                        border rounded-md mb-4 p-3
+                                        flex flex-col justify-start"
+                                        style="font-family: 'Fredericka the Great', cursive;"
+                                        >
+                                            <h2 class="text-xl mt-2 border-b-4 w-full relative">${project.title}<span class="text-amber-300 text-right align-text-top absolute date " style="font-family: 'Caveat', cursive;">${project.created}</span></h2>
+                                            <ul
+                                            class="uppercase list-disc ml-6 my-2"
+                                            style="font-family: 'Caveat', cursive;"
+                                            >
+                                                ${stackBlock}
+                                            </ul>
+                                            <div class="flex mt-auto justify-between place-items-center mt-4">
+                                                <btn class="btn-code border-2 rounded-xl px-2 py-1 border-amber-200 text-amber-200 hover:border-amber-400 hover:text-amber-400 hover:">
+                                                    <a href="${project.code}" target="_blank">Code</a>
+                                                </btn>
+                                                <div class="hint"><span>${project.hint && 'project'}</span><br>${project.hint ?? ''}</div>
+                                                <btn class="btn-demo border-2 rounded-xl px-2 py-1                  border-lime-200 text-lime-200  hover:border-lime-400 hover:text-lime-400 hover:">
+                                                    <a href="${project.demo}" target="_blank">Demo</a>
+                                                </btn>
+                                            </div>
+                                        </div>`
                 }
             }
         }
