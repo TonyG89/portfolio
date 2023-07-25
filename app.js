@@ -99,7 +99,7 @@ const renderData = (data, loaded = true) => {
                 if (project === data[0]) {
                     table.innerHTML = ''
                 }
-                if (project.rate < 4) {
+                if (project.rate < 3) {
                     loader.style.display = 'none'
                     const stack = project.description
                     let stackBlock = ""
