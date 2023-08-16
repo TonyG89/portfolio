@@ -89,11 +89,10 @@ const loadData = async (first = false) => {
 }
 
 const cvClass = document.querySelector('.cv')
-console.log(cvClass)
+
 cvClass.addEventListener('click', counter)
 
 function counter() {
-    alert('добавил кант? ')
     const dateNow = new Date().toString().slice(4, 24)
     fetch('https://634becd4d90b984a1e422fcb.mockapi.io/portfolio_counter', {
         method: 'POST',
