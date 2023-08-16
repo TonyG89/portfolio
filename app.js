@@ -14,7 +14,6 @@ let filteredData = []
 let filterValueArray = []
 const filtered = (data, filt = filterValue) => {
 
-
     const filteredData = data.filter((item) => {
         const lowerCaseDescriptionArray = valueArrayToLowerCase(item.description)
         lowerCaseDescriptionArray.includes(filt.toLowerCase())
@@ -89,6 +88,23 @@ const loadData = async (first = false) => {
     renderData(response, !first)
 }
 
+const cvClass = document.querySelector('.cv')
+console.log(cvClass)
+cvClass.addEventListener('click', counter)
+
+function counter() {
+    alert('добавил кант? ')
+    const dateNow = new Date().toString().slice(4, 24)
+    fetch('https://634becd4d90b984a1e422fcb.mockapi.io/portfolio_counter', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ createdAt: dateNow })
+    }).then(res => {
+        if (res.ok) {
+            return res.json();
+        }
+    }).catch(error => console.log(error))
+}
 
 
 const renderData = (data, loaded = true) => {
