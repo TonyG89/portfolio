@@ -342,5 +342,25 @@
             "hint": "",
             "created": ""
         }
+    },
+    {
+        "ToDoList": {
+            "title": "ToDoList",
+            "demo": "https://todolist-tony.vercel.app/",
+            "type": "Vue app",
+            "description": [
+                "javascript",
+                "vue",
+                "vite",
+                "vuetify",
+                "moment.js",
+                "localStorage",
+                "vercel"
+            ],
+            "code": "https://github.com/TonyG89/todolist",
+            "rate": 1,
+            "hint": "test task",
+            "created": "Aug 17, 2023"
+        }
     }
 ]
