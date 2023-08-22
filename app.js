@@ -29,7 +29,6 @@ chipsContent.forEach(chip => {
 })
 chips.addEventListener('click', (e) => {
     const chip = e.target
-    // срабатывает при клике на чипсы
     if (chip.classList.contains('chip')) {
         document.querySelectorAll('.chip').forEach(item => {
             item.classList.remove('bg-slate-700')
@@ -38,7 +37,6 @@ chips.addEventListener('click', (e) => {
         })
         chip.classList.add('bg-slate-700')
         chip.classList.add('text-lime-300')
-        // const lowerCaseChips = chipsContent.map(item => item.toLocaleLowerCase() === chip.innerText.toLowerCase() && filterValueArray.push(item))
         filterValue = chip.innerText.toLowerCase()
         loadData()
 
@@ -52,7 +50,6 @@ const valueFromArrayObject = (arr) => {
     return arr.map(item => Object.values(item)[0])
 }
 
-// ПЕРЕБРАТ МАССИВ ЧТОБ УБРАТЬ СДЕЛАВ ВСЕ ЗНАЧЕНИЯ С МАЛЕНЬКОЙ БУКВЫ
 const valueArrayToLowerCase = (array) => array.map(str => str.toLowerCase())
 
 const loadData = async (first = false) => {
