@@ -1,366 +1,212 @@
 [
-    {
-        "demontazh.kiev": {
-            "title": "demontazh.kiev",
-            "demo": "https://tonyg89.github.io/demontazh.kiev.ua/",
-            "type": "landing page",
-            "description": [
-                "HTML",
-                "CSS",
-                "PHP"
-            ],
-            "code": "https://github.com/TonyG89/demontazh.kiev.ua",
-            "rate": 3,
-            "hint": "freelance",
-            "created": "2014-2015"
-        }
-    },
-    {
-        "Slider": {
-            "title": "Slider",
-            "demo": "https://tonyg89.github.io/JS-slider-simple/",
-            "type": "component, courses",
-            "description": [
-                "javascript"
-            ],
-            "code": "https://github.com/TonyG89/JS-slider-simple",
-            "rate": 4,
-            "hint": "WayUp",
-            "created": "May 31, 2022"
-        }
-    },
-    {
-        "Medical chat": {
-            "title": "Medical chat",
-            "demo": "https://TonyG89.github.io/JS-SpaceProfitTeam-TEST",
-            "type": "component",
-            "description": [
-                "javascript"
-            ],
-            "code": "https://github.com/TonyG89/JS-SpaceProfitTeam-TEST",
-            "rate": 3,
-            "hint": "test task",
-            "created": "Jul 14, 2022"
-        }
-    },
-    {
-        "Frogger": {
-            "title": "Frogger",
-            "demo": "https://tonyg89.github.io/JS-OOP-frogger/",
-            "type": "classic arcade game, courses",
-            "description": [
-                "javascript",
-                "OOP"
-            ],
-            "code": "https://github.com/TonyG89/JS-OOP-frogger/blob/master/js/app.js",
-            "rate": 2,
-            "hint": "Kottans.Stage0",
-            "created": "Sep 20, 2022"
-        }
-    },
-    {
-        "Rocc": {
-            "title": "Rocc",
-            "demo": "https://tonyg89.github.io/FIGMA.HTML-rocc/",
-            "type": "landing page",
-            "description": [
-                "html",
-                "css",
-                "figma"
-            ],
-            "code": "https://github.com/TonyG89/FIGMA.HTML-rocc",
-            "rate": 4,
-            "hint": "figma",
-            "created": "Sep 23, 2022"
-        }
-    },
-    {
-        "Memory Card": {
-            "title": "Memory Card",
-            "demo": "https://tonyg89.github.io/JS-memoryCard/",
-            "type": "concentration (card game), courses",
-            "description": [
-                "javascript",
-                "Shuffle Array",
-                "SCSS",
-                "CSS3 Transitions",
-                "Flip Animation"
-            ],
-            "code": "https://github.com/TonyG89/JS-memoryCard",
-            "rate": 2,
-            "hint": "Kottans.Stage0",
-            "created": "Sep 29, 2022"
-        }
-    },
-    {
-        "Friends-app": {
-            "title": "Friends-app",
-            "demo": "https://tonyg89.github.io/friends-app/",
-            "type": "component, courses",
-            "description": [
-                "javascript (fetch,  async/await)",
-                "bootstrap 5",
-                "REST API"
-            ],
-            "code": "https://github.com/TonyG89/friends-app",
-            "rate": 2,
-            "hint": "Kottans.Stage0",
-            "created": "Oct 1, 2022"
-        }
-    },
-    {
-        "Monvalise": {
-            "title": "Monvalise",
-            "demo": "https://tonyg89.github.io/BS5-shop-monvalise-TEST/",
-            "type": "first page,  shop",
-            "description": [
-                "html",
-                "bootstrap 5",
-                "javascript"
-            ],
-            "code": "https://github.com/TonyG89/BS5-shop-TEST",
-            "rate": 4,
-            "hint": "test task",
-            "created": "Oct 12, 2022"
-        }
-    },
-    {
-        "PLAIN CLOTHES": {
-            "title": "PLAIN CLOTHES",
-            "demo": "https://tonyg89.github.io/REACT-TooMuch",
-            "type": "shop REACT",
-            "description": [
-                "ReactJS(Hooks,  Router,  Context,  Skeleton)",
-                "Axios",
-                "SCSS",
-                "mockapi.io",
-                "ADAPTIVE"
-            ],
-            "code": "https://github.com/TonyG89/REACT-TooMuch",
-            "rate": 1,
-            "hint": "Archakov Blog",
-            "created": "Oct 25, 2022"
-        }
-    },
-    {
-        "Post Form": {
-            "title": "Post Form",
-            "demo": "https://tonyg89.github.io/BS4-form-TEST/",
-            "type": "component",
-            "description": [
-                "qjuery",
-                "bootstrap 4",
-                "php (post form to txt file)",
-                "form (validation)",
-                "ADAPTIVE"
-            ],
-            "code": "https://github.com/TonyG89/BS4-form-TEST",
-            "rate": 3,
-            "hint": "test task",
-            "created": "Nov 4, 2022"
-        }
-    },
-    {
-        "BLANK CLOTHES": {
-            "title": "BLANK CLOTHES",
-            "demo": "https://tmpc-react-3u309zdol-okylistik.vercel.app/",
-            "type": "shop REACT",
-            "description": [
-                "TypeScript",
-                "ReactJS (Router v6,  Content Loader,  Pagination,  Loadable)",
-                "Redux Toolkit",
-                "Lodash, Debounce",
-                "Code Splitting",
-                "useWhyDidYouUpdate",
-                "Axios + Fetch",
-                "SCSS(CSS-Modules)",
-                "ADAPTIVE"
-            ],
-            "code": "https://github.com/TonyG89/REACT-TYPESCRIPT-tmp-v2",
-            "rate": 1,
-            "hint": "Archakov Blog",
-            "created": "Dec 8, 2022"
-        }
-    },
-    {
-        "Developers": {
-            "title": "Developers",
-            "demo": "https://tonyg89.github.io/developers-ad-landing-TEST/",
-            "type": "one page",
-            "description": [
-                "HTML",
-                "SCSS",
-                "javascript (burger,  slider,  accordion)",
-                "ADAPTIVE"
-            ],
-            "code": "https://github.com/TonyG89/developers-ad-landing-TEST",
-            "rate": 1,
-            "hint": "test task",
-            "created": "Dec 15, 2022"
-        }
-    },
-    {
-        "NoBank": {
-            "title": "NoBank",
-            "demo": "https://react-tailwind-nobank.vercel.app/",
-            "type": "landing page",
-            "description": [
-                "react js",
-                "tailwind css",
-                "ADAPTIVE"
-            ],
-            "code": "https://github.com/TonyG89/REACT-TAILWIND-nobank",
-            "rate": 4,
-            "hint": "youtube",
-            "created": "Dec 26, 2022"
-        }
-    },
-    {
-        "gulp": {
-            "title": "gulp",
-            "demo": "#",
-            "type": " ",
-            "description": [
-                ""
-            ],
-            "code": "https://github.com/TonyG89/GULP-HTML-TEST",
-            "rate": 10,
-            "hint": "test task",
-            "created": ""
-        }
-    },
-    {
-        "TMPclothes (developing)": {
-            "title": "TMPclothes (developing)",
-            "demo": "https://tonyg89.github.io/TAILWIND-tmpclothes/",
-            "type": "landing page",
-            "description": [
-                "tailwind",
-                "javascript"
-            ],
-            "code": "https://github.com/TonyG89/TAILWIND-tmpclothes",
-            "rate": 10,
-            "hint": "",
-            "created": ""
-        }
-    },
-    {
-        "FOOD": {
-            "title": "FOOD",
-            "demo": "https://tonyg89.github.io/JS-food/",
-            "type": "landing page",
-            "description": [
-                "javascript",
-                "php",
-                "webpack"
-            ],
-            "code": "https://github.com/TonyG89/JS-food/",
-            "rate": 3,
-            "hint": "UDEMY",
-            "created": "Nov 20, 2022"
-        }
-    },
-    {
-        "Tabs": {
-            "title": "Tabs",
-            "demo": "https://tonyg89.github.io/JS-tabs/",
-            "type": "component, courses",
-            "description": [
-                "javascript"
-            ],
-            "code": "https://github.com/TonyG89/JS-tabs",
-            "rate": 4,
-            "hint": "WayUp",
-            "created": ""
-        }
-    },
-    {
-        "History of Skateboarding": {
-            "title": "History of Skateboarding",
-            "demo": "https://tonyg89.github.io/JS-dom/",
-            "type": "one page, courses",
-            "description": [
-                "javascript",
-                "css-animation",
-                "fetch(json)"
-            ],
-            "code": "https://github.com/TonyG89/JS-dom/",
-            "rate": 4,
-            "hint": "Kottans.Stage0",
-            "created": ""
-        }
-    },
-    {
-        "React projects": {
-            "title": "React projects",
-            "demo": "https://github.com/TonyG89/react-beginner-projects",
-            "type": "components REACT",
-            "description": [
-                ""
-            ],
-            "code": "#",
-            "rate": 10,
-            "hint": "",
-            "created": ""
-        }
-    },
-    {
-        "Football Weekends": {
-            "title": "Football Weekends",
-            "demo": "https://spartak-on-saturday.vercel.app/",
-            "type": "Vue app",
-            "description": [
-                "javascript",
-                "vue",
-                "vite",
-                "ag-grid",
-                "tailwind",
-                "vercel",
-                "drawio"
-            ],
-            "code": "https://github.com/TonyG89/VUE_TAILWIND_footballweekend",
-            "rate": 3,
-            "hint": "",
-            "created": "May 30, 2023"
-        }
-    },
-    {
-        "LogBook": {
-            "title": "LogBook",
-            "demo": "https://logbook-v2-test.vercel.app/",
-            "type": "Vue app",
-            "description": [
-                "javascript",
-                "vue",
-                "vite",
-                "ag-grid",
-                "vuetify",
-                "vercel"
-            ],
-            "code": "https://github.com/TonyG89/logbook-v2",
-            "rate": 4,
-            "hint": "",
-            "created": ""
-        }
-    },
-    {
-        "ToDoList": {
-            "title": "ToDoList",
-            "demo": "https://todolist-tony.vercel.app/",
-            "type": "Vue app",
-            "description": [
-                "javascript",
-                "vue",
-                "vite",
-                "vuetify",
-                "moment.js",
-                "localStorage",
-                "vercel"
-            ],
-            "code": "https://github.com/TonyG89/todolist",
-            "rate": 1,
-            "hint": "test task",
-            "created": "Aug 17, 2023"
-        }
-    }
+	{
+		"Driver Logbook": {
+			"title": "Driver Logbook",
+			"demo": "",
+			"type": "Vue app",
+			"description": [],
+			"code": "",
+			"rate": 5,
+			"hint": "",
+			"created": ""
+		}
+	},
+	{
+		"Football Playbook": {
+			"title": "Football Playbook",
+			"demo": "",
+			"type": "Vue app",
+			"description": [],
+			"code": "",
+			"rate": 5,
+			"hint": "",
+			"created": ""
+		}
+	},
+	{
+		"Football Weekends": {
+			"title": "Football Weekends",
+			"demo": "https://spartak-on-saturday.vercel.app/",
+			"type": "Vue app",
+			"description": [
+				"javascript",
+				"vue",
+				"vite",
+				"ag-grid",
+				"tailwind",
+				"vercel",
+				"drawio"
+			],
+			"code": "https://github.com/TonyG89/VUE_TAILWIND_footballweekend",
+			"rate": 1,
+			"hint": "",
+			"created": "May 30, 2023"
+		}
+	},
+	{
+		"ToDoList": {
+			"title": "ToDoList",
+			"demo": "https://todolist-tony.vercel.app/",
+			"type": "Vue app",
+			"description": [
+				"javascript",
+				"vue",
+				"vite",
+				"vuetify",
+				"moment.js",
+				"localStorage",
+				"vercel"
+			],
+			"code": "https://github.com/TonyG89/todolist",
+			"rate": 1,
+			"hint": "test task",
+			"created": "Aug 17, 2023"
+		}
+	},
+	{
+		"Frogger": {
+			"title": "Frogger",
+			"demo": "https://tonyg89.github.io/JS-OOP-frogger/",
+			"type": "classic arcade game, courses",
+			"description": ["javascript", "OOP"],
+			"code": "https://github.com/TonyG89/JS-OOP-frogger/blob/master/js/app.js",
+			"rate": 2,
+			"hint": "Kottans.Stage0",
+			"created": "Sep 20, 2022"
+		}
+	},
+	{
+		"Memory Card": {
+			"title": "Memory Card",
+			"demo": "https://tonyg89.github.io/JS-memoryCard/",
+			"type": "concentration (card game), courses",
+			"description": [
+				"javascript",
+				"Shuffle Array",
+				"SCSS",
+				"CSS3 Transitions",
+				"Flip Animation"
+			],
+			"code": "https://github.com/TonyG89/JS-memoryCard",
+			"rate": 2,
+			"hint": "Kottans.Stage0",
+			"created": "Sep 29, 2022"
+		}
+	},
+	{
+		"BLANK CLOTHES": {
+			"title": "BLANK CLOTHES",
+			"demo": "https://tmpc-react-3u309zdol-okylistik.vercel.app/",
+			"type": "shop REACT",
+			"description": [
+				"TypeScript",
+				"ReactJS (Router v6,  Content Loader,  Pagination,  Loadable)",
+				"Redux Toolkit",
+				"Lodash, Debounce",
+				"Code Splitting",
+				"useWhyDidYouUpdate",
+				"Axios + Fetch",
+				"SCSS(CSS-Modules)",
+				"ADAPTIVE"
+			],
+			"code": "https://github.com/TonyG89/REACT-TYPESCRIPT-tmp-v2",
+			"rate": 2,
+			"hint": "Archakov Blog",
+			"created": "Dec 8, 2022"
+		}
+	},
+	{
+		"Developers": {
+			"title": "Developers",
+			"demo": "https://tonyg89.github.io/developers-ad-landing-TEST/",
+			"type": "one page",
+			"description": [
+				"HTML",
+				"SCSS",
+				"javascript (burger,  slider,  accordion)",
+				"ADAPTIVE"
+			],
+			"code": "https://github.com/TonyG89/developers-ad-landing-TEST",
+			"rate": 3,
+			"hint": "test task",
+			"created": "Dec 15, 2022"
+		}
+	},
+	{
+		"NoBank": {
+			"title": "NoBank",
+			"demo": "https://react-tailwind-nobank.vercel.app/",
+			"type": "landing page",
+			"description": ["react js", "tailwind css", "ADAPTIVE"],
+			"code": "https://github.com/TonyG89/REACT-TAILWIND-nobank",
+			"rate": 3,
+			"hint": "youtube lesson",
+			"created": "Dec 26, 2022"
+		}
+	},
+	{
+		"demontazh.kiev": {
+			"title": "demontazh.kiev",
+			"demo": "https://tonyg89.github.io/demontazh.kiev.ua/",
+			"type": "landing page",
+			"description": ["HTML", "CSS", "PHP"],
+			"code": "https://github.com/TonyG89/demontazh.kiev.ua",
+			"rate": 4,
+			"hint": "freelance",
+			"created": "2014-2015"
+		}
+	},
+	{
+		"LogBook": {
+			"title": "LogBook",
+			"demo": "https://logbook-v2-test.vercel.app/",
+			"type": "Vue app",
+			"description": [
+				"javascript",
+				"vue",
+				"vite",
+				"ag-grid",
+				"vuetify",
+				"vercel"
+			],
+			"code": "https://github.com/TonyG89/logbook-v2",
+			"rate": 4,
+			"hint": "old version",
+			"created": ""
+		}
+	},
+	{
+		"Friends-app": {
+			"title": "Friends-app",
+			"demo": "https://tonyg89.github.io/friends-app/",
+			"type": "component, courses",
+			"description": [
+				"javascript (fetch,  async/await)",
+				"bootstrap 5",
+				"REST API"
+			],
+			"code": "https://github.com/TonyG89/friends-app",
+			"rate": 4,
+			"hint": "Kottans.Stage0",
+			"created": "Oct 1, 2022"
+		}
+	},
+	{
+		"PLAIN CLOTHES": {
+			"title": "PLAIN CLOTHES",
+			"demo": "https://tonyg89.github.io/REACT-TooMuch",
+			"type": "shop REACT",
+			"description": [
+				"ReactJS(Hooks,  Router,  Context,  Skeleton)",
+				"Axios",
+				"SCSS",
+				"mockapi.io",
+				"ADAPTIVE"
+			],
+			"code": "https://github.com/TonyG89/REACT-TooMuch",
+			"rate": 4,
+			"hint": "Archakov Blog",
+			"created": "Oct 25, 2022"
+		}
+	}
 ]

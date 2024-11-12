@@ -1,48 +1,49 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-        <script>
-            !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-            posthog.init("phc_3KPeqJtdSwBW5RkTC9TScfV1djjSF0VRcD1A2hBhXqt",{api_host:'https://eu.i.posthog.com'})
-        </script>
-        <script src="client.min.js"></script>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Caveat&family=Fredericka+the+Great&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <title>Portfolio</title>
-    </head>
-    <body
-        class="bg-green-100 max-md:bg-gradient-to-r from-slate-800 to-slate-700">
-        <section class="p-4 sm:p-10 items-center mx-auto">
-            <h1
-                class="text-[2.7rem] text-center sm:text-left mb-2 max-md:text-slate-400 min-[440px]:text-6xl min-[505px]:text-7xl sm:mb-10 text-teal-900"
-                style="font-family: 'Fredericka the Great', cursive;">
-                My portfolio</h1>
-            <div class="
-            flex items-center mb-2
-            max-md:flex-col
-            ">
+    <script>
+        !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+        posthog.init("phc_3KPeqJtdSwBW5RkTC9TScfV1djjSF0VRcD1A2hBhXqt", { api_host: 'https://eu.i.posthog.com' })
+    </script>
+    <script src="client.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Fredericka+the+Great&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body class="bg-green-100 max-md:bg-gradient-to-r from-slate-800 to-slate-700">
+    <section class="p-4 sm:p-10 items-center mx-auto">
+        <h1 class="text-[2.7rem] text-center sm:text-left mb-2 max-md:text-slate-400 min-[440px]:text-6xl min-[505px]:text-7xl sm:mb-10 text-teal-900"
+            style="font-family: 'Fredericka the Great', cursive;">
+            My portfolio</h1>
+        <!--  ФИЛЬТРАЦИЯ  -->
+        <!--
+        <div class="
+                flex items-center mb-2
+                max-md:flex-col
+                ">
                 <h3 style="font-family: 'Caveat'"
                     class="uppercase text-2xl mr-2 max-md:mb-2 max-md:text-slate-500">filtration:</h3>
-                <ul class="
-                chips flex flex-wrap
-                justify-center align-center
-                max-lg:grid grid-cols-4 max-lg:w-full
-                max-md:flex
-                ">
+                    <ul class="
+                    chips flex flex-wrap
+                    justify-center align-center
+                    max-lg:grid grid-cols-4 max-lg:w-full
+                    max-md:flex
+                    ">
                 </ul>
             </div>
-            <!-- <div class="loader">
+        -->
+        <!-- <div class="loader">
                 <img src="./loader.svg" />
             </div> -->
-            <div
-                class="box-content table-card
+        <div class="box-content table-card
                 bg-gradient-to-r from-slate-800 to-slate-700
                 p-5 border-8 border-black
                 max-md:bg-none
@@ -51,73 +52,51 @@
                 min-h-[140px]
                 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4
                 ">
-                <svg role="img"
-                    aria-label="Mouth and eyes come from 9:00 and rotate clockwise into position, right eye blinks, then all parts rotate and merge into 3:00"
-                    class="smiley mx-auto
+            <svg role="img"
+                aria-label="Mouth and eyes come from 9:00 and rotate clockwise into position, right eye blinks, then all parts rotate and merge into 3:00"
+                class="smiley mx-auto
                     absolute
                     left-[50%]
                     translate-x-[-50%]
-                    viewBox=" 0 0 128 128"
-                    width="128px"
-                    height="128px"
-                    >
-                    <defs>
-                        <clippath id="smiley-eyes">
-                            <circle class="smiley__eye1" cx="64" cy="64"
-                                r="8"
-                                transform="rotate(-40,64,64) translate(0,-56)" />
-                            <circle class="smiley__eye2" cx="64" cy="64"
-                                r="8"
-                                transform="rotate(40,64,64) translate(0,-56)" />
-                        </clippath>
-                        <lineargradient id="smiley-grad" x1="0" y1="0"
-                            x2="0" y2="1">
-                            <stop offset="0%" stop-color="#000" />
-                            <stop offset="100%" stop-color="#fff" />
-                        </lineargradient>
-                        <mask id="smiley-mask">
-                            <rect x="0" y="0" width="128" height="128"
-                                fill="url(#smiley-grad)" />
-                        </mask>
-                    </defs>
-                    <g stroke-linecap="round" stroke-width="12"
-                        stroke-dasharray="175.93 351.86">
-                        <g>
-                            <rect fill="#94a3b8" width="128"
-                                height="64" clip-path="url(#smiley-eyes)" />
-                            <g fill="none" stroke="#94a3b8">
-                                <circle class="smiley__mouth1" cx="64"
-                                    cy="64" r="56"
-                                    transform="rotate(180,64,64)" />
-                                <circle class="smiley__mouth2" cx="64"
-                                    cy="64" r="56"
-                                    transform="rotate(0,64,64)" />
-                            </g>
-                        </g>
-                        <g mask="url(#smiley-mask)">
-                            <rect fill="#86efac" width="128"
-                                height="64" clip-path="url(#smiley-eyes)" />
-                            <g fill="none" stroke="#86efac">
-                                <circle class="smiley__mouth1" cx="64"
-                                    cy="64" r="56"
-                                    transform="rotate(180,64,64)" />
-                                <circle class="smiley__mouth2" cx="64"
-                                    cy="64" r="56"
-                                    transform="rotate(0,64,64)" />
-                            </g>
+                    viewBox=" 0 0 128 128" width="128px" height="128px">
+                <defs>
+                    <clippath id="smiley-eyes">
+                        <circle class="smiley__eye1" cx="64" cy="64" r="8"
+                            transform="rotate(-40,64,64) translate(0,-56)" />
+                        <circle class="smiley__eye2" cx="64" cy="64" r="8"
+                            transform="rotate(40,64,64) translate(0,-56)" />
+                    </clippath>
+                    <lineargradient id="smiley-grad" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="#000" />
+                        <stop offset="100%" stop-color="#fff" />
+                    </lineargradient>
+                    <mask id="smiley-mask">
+                        <rect x="0" y="0" width="128" height="128" fill="url(#smiley-grad)" />
+                    </mask>
+                </defs>
+                <g stroke-linecap="round" stroke-width="12" stroke-dasharray="175.93 351.86">
+                    <g>
+                        <rect fill="#94a3b8" width="128" height="64" clip-path="url(#smiley-eyes)" />
+                        <g fill="none" stroke="#94a3b8">
+                            <circle class="smiley__mouth1" cx="64" cy="64" r="56" transform="rotate(180,64,64)" />
+                            <circle class="smiley__mouth2" cx="64" cy="64" r="56" transform="rotate(0,64,64)" />
                         </g>
                     </g>
-                </svg>
+                    <g mask="url(#smiley-mask)">
+                        <rect fill="#86efac" width="128" height="64" clip-path="url(#smiley-eyes)" />
+                        <g fill="none" stroke="#86efac">
+                            <circle class="smiley__mouth1" cx="64" cy="64" r="56" transform="rotate(180,64,64)" />
+                            <circle class="smiley__mouth2" cx="64" cy="64" r="56" transform="rotate(0,64,64)" />
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </div>
+        <footer class="mt-10 flex items-center justify-center">
+            <div><a class="cv flex" href="https://front-dev-hryhoriev-ukr.vercel.app/?site=portfolio" target="_blank">
+                    <img class="mt-1 h-8" src="https://cdn-icons-png.flaticon.com/128/909/909263.png" alt="github"></a>
             </div>
-            <footer class="mt-10 flex items-center justify-center">
-                <div><a class="cv flex"
-                        href="https://front-dev-hryhoriev-ukr.vercel.app/?site=portfolio"
-                        target="_blank">
-                        <img class="mt-1 h-8"
-                            src="https://cdn-icons-png.flaticon.com/128/909/909263.png"
-                            alt="github"></a>
-                </div>
-                <!--                 <div><a class="flex" href="https://github.com/TonyG89">
+            <!--                 <div><a class="flex" href="https://github.com/TonyG89">
                         <img class="mt-1 h-8"
                             src="https://cdn-icons-png.flaticon.com/512/4926/4926624.png"
                             alt="github"></a>
@@ -136,8 +115,9 @@
                             src='https://static.vecteezy.com/system/resources/previews/018/930/585/original/linkedin-logo-linkedin-icon-transparent-free-png.png'
                             alt="linkedin"></a>
                 </div> -->
-            </footer>
-        </section>
-        <script src="./app.js"></script>
-    </body>
+        </footer>
+    </section>
+    <script src="./app.js"></script>
+</body>
+
 </html>
