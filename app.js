@@ -67,11 +67,11 @@ const loadData = async (first = false) => {
 			projectsArray = valueFromArrayObject(projects);
 
 			const processedData = projectsArray.filter((project) => {
-				const descriptionLowerCase = valueArrayToLowerCase(project.description);
+				const technologyListLowerCase = valueArrayToLowerCase(project.technologies);
 				const typeLowerCase = project.type.toLowerCase();
-				const hintLowerCase = project.hint.toLowerCase();
+				const hintLowerCase = project.purpose.toLowerCase();
 
-				filterValue = filterValue.toLowerCase();
+				return  filterValue.toLowerCase();
 				switch (filterValue) {
 					case "all":
 						return projectsArray;
@@ -84,7 +84,7 @@ const loadData = async (first = false) => {
 					case "my projects":
 						return hintLowerCase === "" || hintLowerCase === "freelance";
 					default:
-						return descriptionLowerCase.includes(filterValue);
+						return technologyListLowerCase.includes(filterValue);
 				}
 			});
 			return processedData;
@@ -135,47 +135,50 @@ const renderData = (data, loaded = true) => {
 				}
 				if (project.rate <= 3) {
 					loader.style.display = "none";
-					const stack = project.description;
-					let stackBlock = "";
+					const stack = project.technologies;
+					let technologiesBlock = "";
 					stack.forEach(
 						(stack) =>
-							(stackBlock += `<li class="hover:text-amber-100 cursor-pointer text-lg">${stack}</li>`)
+							(technologiesBlock += `<li class="text-amber-100 cursor-default text-sm">${stack}</li>`)
 					);
 					table.innerHTML += `<div
                                         class="card box-border
                                         text-teal-50
                                         w-full
                                         mx-auto
+																				relative
                                         border rounded-md mb-4 p-3
                                         flex flex-col justify-start"
                                         style="font-family: 'Fredericka the Great', cursive;"
                                         >
-                                            <h2 class="text-xl mt-2 border-b-4 w-full relative">${
-																							project.title
-																						}<span class="text-amber-300 text-right align-text-top absolute date " style="font-family: 'Caveat', cursive;">${
+																				<div class="border-b-4 w-full flex justify-between items-baseline">
+                                            <h2 class="text-xl cursor-default mt-2  ">
+																						${project.title}
+																							</h2>
+																							<span class="hint cursor-default">
+																									${project.purpose}
+																								</span>
+																								</div>
+																						<div class="text-amber-300 cursor-default text-right align-text-top absolute date " style="font-family: 'Caveat', cursive;">${
 																							project.created
-																						}</span></h2>
+																						}</div>
+																						<p class="mt-2 cursor-default">${project.description}</p>
                                             <ul
-                                            class="uppercase list-disc ml-6 my-2"
+                                            class="techno uppercase mb-2"
                                             style="font-family: 'Caveat', cursive;"
                                             >
-                                                ${stackBlock}
+                                                ${technologiesBlock}
                                             </ul>
-                                            <div class="flex mt-auto justify-between place-items-center mt-4">
-                                                <!--<btn class="btn-code border-2 rounded-xl px-2 py-1 border-amber-200 text-amber-200 hover:border-amber-400 hover:text-amber-400 hover:">
+                                            <div class="flex mt-auto justify-between place-items-center ">
+                                                ${!!project.code && project.isPublic ?`<btn class="btn-code border-2 rounded-xl px-2 py-1 border-amber-200 text-amber-200 hover:border-amber-400 hover:text-amber-400 hover:">
                                                     <a href="${
 																											project.code
 																										}" target="_blank">Code</a>
-                                                </btn>-->
-                                                <div class="hint cursor-default"><span>${
-																									project.hint && "project: "
-																								}</span>${
-																									project.hint ?? ""
-																								}</div>
-                                                <btn class="btn-demo border-2 rounded-xl px-2 py-1                  border-lime-200 text-lime-200  hover:border-lime-400 hover:text-lime-400 hover:">
-                                                    <a href="${
+                                                </btn>` : ''}
+                                                <btn class="btn-demo ml-auto border-2 rounded-xl px-2 py-1 border-lime-200 text-lime-200  hover:border-lime-400 hover:text-lime-400 hover:">
+                                                    <a class="uppercase" href="${
 																											project.demo
-																										}" target="_blank">Demo</a>
+																										}" target="_blank">WATCH demo</a>
                                                 </btn>
                                             </div>
                                         </div>`;

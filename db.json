@@ -4,11 +4,14 @@
 			"title": "Driver Logbook",
 			"demo": "",
 			"type": "Vue app",
-			"description": [],
+			"features":[],
+			"description": "",
+			"technologies": [],
 			"code": "",
 			"rate": 5,
-			"hint": "",
-			"created": ""
+			"purpose": "personal",
+			"created": "",
+			"isPublic": true
 		}
 	},
 	{
@@ -16,11 +19,14 @@
 			"title": "Football Playbook",
 			"demo": "",
 			"type": "Vue app",
-			"description": [],
+			"features":[],
+			"description": "",
+			"technologies": [],
 			"code": "",
 			"rate": 5,
-			"hint": "",
-			"created": ""
+			"purpose": "personal",
+			"created": "",
+			"isPublic": true
 		}
 	},
 	{
@@ -28,7 +34,9 @@
 			"title": "Football Weekends",
 			"demo": "https://spartak-on-saturday.vercel.app/",
 			"type": "Vue app",
-			"description": [
+			"features":[],
+			"description": "",
+			"technologies": [
 				"javascript",
 				"vue",
 				"vite",
@@ -39,8 +47,9 @@
 			],
 			"code": "https://github.com/TonyG89/VUE_TAILWIND_footballweekend",
 			"rate": 1,
-			"hint": "",
-			"created": "May 30, 2023"
+			"purpose": "personal",
+			"created": "May 30, 2023",
+			"isPublic": true
 		}
 	},
 	{
@@ -48,7 +57,9 @@
 			"title": "ToDoList",
 			"demo": "https://todolist-tony.vercel.app/",
 			"type": "Vue app",
-			"description": [
+			"features":[],
+			"description": "",
+			"technologies": [
 				"javascript",
 				"vue",
 				"vite",
@@ -59,8 +70,9 @@
 			],
 			"code": "https://github.com/TonyG89/todolist",
 			"rate": 1,
-			"hint": "test task",
-			"created": "Aug 17, 2023"
+			"purpose": "test task",
+			"created": "Aug 17, 2023",
+			"isPublic": true
 		}
 	},
 	{
@@ -68,11 +80,14 @@
 			"title": "Frogger",
 			"demo": "https://tonyg89.github.io/JS-OOP-frogger/",
 			"type": "classic arcade game, courses",
-			"description": ["javascript", "OOP"],
+			"features":[],
+			"description": "A game based on the classic arcade Frogger, where the player must cross the road while avoiding obstacles. It is implemented using object-oriented programming (OOP), with classes for the player and enemies, utilizing methods for collision detection and controlling the movement of objects.",
+			"technologies": ["javascript", "OOP"],
 			"code": "https://github.com/TonyG89/JS-OOP-frogger/blob/master/js/app.js",
 			"rate": 2,
-			"hint": "Kottans.Stage0",
-			"created": "Sep 20, 2022"
+			"purpose": "Kottans.Stage0",
+			"created": "Sep, 2022",
+			"isPublic": true
 		}
 	},
 	{
@@ -80,17 +95,19 @@
 			"title": "Memory Card",
 			"demo": "https://tonyg89.github.io/JS-memoryCard/",
 			"type": "concentration (card game), courses",
-			"description": [
-				"javascript",
-				"Shuffle Array",
-				"SCSS",
+			"features":["Shuffle Array",
 				"CSS3 Transitions",
-				"Flip Animation"
+				"Flip Animation"],
+			"description": "A memory matching game where identical cards are placed on a table. The player's task is to find and match all the pairs of identical cards. The game is developed using pure JavaScript, incorporating the Shuffle Array algorithm for shuffling the cards, CSS3 transitions for smooth animations, and flip animation to create effects when cards are revealed or hidden.",
+			"technologies": [
+				"SCSS",
+				"JavaScript"
 			],
 			"code": "https://github.com/TonyG89/JS-memoryCard",
 			"rate": 2,
-			"hint": "Kottans.Stage0",
-			"created": "Sep 29, 2022"
+			"purpose": "Kottans.Stage0",
+			"created": "Sep, 2022",
+			"isPublic": true
 		}
 	},
 	{
@@ -98,21 +115,23 @@
 			"title": "BLANK CLOTHES",
 			"demo": "https://tmpc-react-3u309zdol-okylistik.vercel.app/",
 			"type": "shop REACT",
-			"description": [
+			"features":[],
+			"description": "Part of the functionality of the online store for selling blank apparel includes product filtering by categories and size, search by name, pagination for easy browsing of a large assortment, adding products to the cart, as well as cart management with the ability to change quantities and remove items.",
+			"technologies": [
+				"SCSS",
 				"TypeScript",
-				"ReactJS (Router v6,  Content Loader,  Pagination,  Loadable)",
+				"React",
 				"Redux Toolkit",
-				"Lodash, Debounce",
+				"Debounce",
 				"Code Splitting",
-				"useWhyDidYouUpdate",
-				"Axios + Fetch",
-				"SCSS(CSS-Modules)",
-				"ADAPTIVE"
+				"CSS-Modules",
+				"Responsive design"
 			],
 			"code": "https://github.com/TonyG89/REACT-TYPESCRIPT-tmp-v2",
 			"rate": 2,
-			"hint": "Archakov Blog",
-			"created": "Dec 8, 2022"
+			"purpose": "Archakov Blog",
+			"created": "Dec 8, 2022",
+			"isPublic": true
 		}
 	},
 	{
@@ -120,28 +139,34 @@
 			"title": "Developers",
 			"demo": "https://tonyg89.github.io/developers-ad-landing-TEST/",
 			"type": "one page",
-			"description": [
+			"features":[],
+			"description": "A single-page application with smooth state transitions for elements such as a burger menu, slider, accordion, and carousel. The logic for these elements was also developed independently. The design features a multi-layered background made of small elements that create a dynamic and engaging effect.",
+			"technologies": [
 				"HTML",
 				"SCSS",
-				"javascript (burger,  slider,  accordion)",
-				"ADAPTIVE"
+				"JavaScript",
+				"Responsive design"
 			],
 			"code": "https://github.com/TonyG89/developers-ad-landing-TEST",
 			"rate": 3,
-			"hint": "test task",
-			"created": "Dec 15, 2022"
+			"purpose": "test task",
+			"created": "Dec, 2022",
+			"isPublic": true
 		}
 	},
 	{
 		"NoBank": {
-			"title": "NoBank",
+			"title": "HoBank Mockup",
 			"demo": "https://react-tailwind-nobank.vercel.app/",
 			"type": "landing page",
-			"description": ["react js", "tailwind css", "ADAPTIVE"],
+			"features":[],
+			"description": "This project is a responsive homepage for a fictional bank, developed to practice layout and styling skills. The page has a clean and modern design but limited functionality, as its primary purpose was to showcase adaptive layout techniques and styling.",
+			"technologies": ["React", "Tailwind css", "Responsive design"],
 			"code": "https://github.com/TonyG89/REACT-TAILWIND-nobank",
 			"rate": 3,
-			"hint": "youtube lesson",
-			"created": "Dec 26, 2022"
+			"purpose": "video tutorial",
+			"created": "Dec, 2022",
+			"isPublic": true
 		}
 	},
 	{
@@ -149,11 +174,14 @@
 			"title": "demontazh.kiev",
 			"demo": "https://tonyg89.github.io/demontazh.kiev.ua/",
 			"type": "landing page",
-			"description": ["HTML", "CSS", "PHP"],
+			"features":[],
+			"description": "",
+			"technologies": ["HTML", "CSS", "PHP"],
 			"code": "https://github.com/TonyG89/demontazh.kiev.ua",
 			"rate": 4,
-			"hint": "freelance",
-			"created": "2014-2015"
+			"purpose": "freelance",
+			"created": "2014-2015",
+			"isPublic": true
 		}
 	},
 	{
@@ -161,7 +189,9 @@
 			"title": "LogBook",
 			"demo": "https://logbook-v2-test.vercel.app/",
 			"type": "Vue app",
-			"description": [
+			"features":[],
+			"description": "",
+			"technologies": [
 				"javascript",
 				"vue",
 				"vite",
@@ -171,7 +201,7 @@
 			],
 			"code": "https://github.com/TonyG89/logbook-v2",
 			"rate": 4,
-			"hint": "old version",
+			"purpose": "old version",
 			"created": ""
 		}
 	},
@@ -180,14 +210,16 @@
 			"title": "Friends-app",
 			"demo": "https://tonyg89.github.io/friends-app/",
 			"type": "component, courses",
-			"description": [
+			"features":[],
+			"description": "",
+			"technologies": [
 				"javascript (fetch,  async/await)",
 				"bootstrap 5",
 				"REST API"
 			],
 			"code": "https://github.com/TonyG89/friends-app",
 			"rate": 4,
-			"hint": "Kottans.Stage0",
+			"purpose": "Kottans.Stage0",
 			"created": "Oct 1, 2022"
 		}
 	},
@@ -196,7 +228,9 @@
 			"title": "PLAIN CLOTHES",
 			"demo": "https://tonyg89.github.io/REACT-TooMuch",
 			"type": "shop REACT",
-			"description": [
+			"features":[],
+			"description": "",
+			"technologies": [
 				"ReactJS(Hooks,  Router,  Context,  Skeleton)",
 				"Axios",
 				"SCSS",
@@ -205,7 +239,7 @@
 			],
 			"code": "https://github.com/TonyG89/REACT-TooMuch",
 			"rate": 4,
-			"hint": "Archakov Blog",
+			"purpose": "Archakov Blog",
 			"created": "Oct 25, 2022"
 		}
 	}

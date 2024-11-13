@@ -1,7 +1,11 @@
+p{
+	font-family: 'fanttasy', 'Times New Roman', Times, serif;
+	text-align: jus
+}
 .date {
   top: -22px;
   right: -5px;
-  font-size: 13px;
+  font-size: 0.8rem;
 }
 
 .loader{
@@ -11,13 +15,37 @@
 }
 
 .box-border {
-  transition: all .3s ease-in-out;
+  transition: all 1.3s ease-in-out;
+	.btn-demo{
+		visibility: hidden;
+		opacity:0;
+		transition: all 0.3s ease-in-out;
+	}
+}
+.techno{
+	display:flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	margin-left: -10px;
+	li:before {
+		content: "・";
+		width: 100%;
+		height: 1px;
+		margin-right: -3px;
+		margin-left: 5px;
+	}
 }
 
+
 .box-border:hover {
-  transition: all 0.2s ease-in-out;
-  transform: translateX(-2px) translateY(-2px) scale(1.02);
+	transition: all 0.4s ease-in-out;
+  transform: translateX(-1px) translateY(-1px) ;
   box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.758);
+	.btn-demo{
+		visibility: visible;
+		opacity:1;
+		transition: all 0.4s ease-in-out;
+	}
 }
 
 .box-border:active {
@@ -26,29 +54,22 @@
 }
 
 .hint {
-  font-size: 13px;
-  margin: 5px;
+  font-size: 0.9rem;
   text-transform: lowercase;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
-  color: rgba(255, 78, 78, 0.4);
+  color: rgba(255, 78, 78, 0.758);
 }
 
-.hint:hover {
-  color: rgba(255, 78, 78);
-  text-decoration: dashed;
-  transition: all 0.5s ease-in-out;
-}
 
 .hint>span {
   color: rgb(150, 150, 150);
-  font-size: 11px;
+  font-size: 0.75rem;
   text-transform: uppercase;
 }
 
 btn:hover{
   transition: all 0.2s ease-in-out;
-  transform: translateX(-1px) translateY(-1px) ;
   box-shadow: 2px 2px  rgba(0, 0, 0, 0.758);
 }
 
