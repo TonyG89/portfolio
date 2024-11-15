@@ -2,6 +2,7 @@
 	{
 		"Driver Logbook": {
 			"title": "Driver Logbook",
+			"image_name": "Driver Logbook",
 			"demo": "",
 			"type": "Vue app",
 			"features":[],
@@ -11,12 +12,13 @@
 			"rate": 5,
 			"purpose": "personal",
 			"created": "",
-			"isPublic": true
+			"isPublic": false
 		}
 	},
 	{
 		"Football Playbook": {
 			"title": "Football Playbook",
+			"image_name": "Football Playbook",
 			"demo": "",
 			"type": "Vue app",
 			"features":[],
@@ -26,39 +28,17 @@
 			"rate": 5,
 			"purpose": "personal",
 			"created": "",
-			"isPublic": true
-		}
-	},
-	{
-		"Football Weekends": {
-			"title": "Football Weekends",
-			"demo": "https://spartak-on-saturday.vercel.app/",
-			"type": "Vue app",
-			"features":[],
-			"description": "",
-			"technologies": [
-				"javascript",
-				"vue",
-				"vite",
-				"ag-grid",
-				"tailwind",
-				"vercel",
-				"drawio"
-			],
-			"code": "https://github.com/TonyG89/VUE_TAILWIND_footballweekend",
-			"rate": 1,
-			"purpose": "personal",
-			"created": "May 30, 2023",
-			"isPublic": true
+			"isPublic": false
 		}
 	},
 	{
 		"ToDoList": {
 			"title": "ToDoList",
+			"image_name": "todolist",
 			"demo": "https://todolist-tony.vercel.app/",
 			"type": "Vue app",
 			"features":[],
-			"description": "",
+			"description": "A web application for task management that allows users to add, edit, delete, and move tasks between lists. All data is saved in localStorage, ensuring the app’s state persists after a page reload. A simple and functional solution for task organization.",
 			"technologies": [
 				"javascript",
 				"vue",
@@ -71,48 +51,37 @@
 			"code": "https://github.com/TonyG89/todolist",
 			"rate": 1,
 			"purpose": "test task",
-			"created": "Aug 17, 2023",
-			"isPublic": true
+			"created": "Aug, 2023",
+			"isPublic": false
 		}
 	},
 	{
-		"Frogger": {
-			"title": "Frogger",
-			"demo": "https://tonyg89.github.io/JS-OOP-frogger/",
-			"type": "classic arcade game, courses",
+		"Football Weekends": {
+			"title": "Football Weekends",
+			"image_name": "football-weekends",
+			"demo": "https://spartak-on-saturday.vercel.app/",
+			"type": "Vue app",
 			"features":[],
-			"description": "A game based on the classic arcade Frogger, where the player must cross the road while avoiding obstacles. It is implemented using object-oriented programming (OOP), with classes for the player and enemies, utilizing methods for collision detection and controlling the movement of objects.",
-			"technologies": ["javascript", "OOP"],
-			"code": "https://github.com/TonyG89/JS-OOP-frogger/blob/master/js/app.js",
-			"rate": 2,
-			"purpose": "Kottans.Stage0",
-			"created": "Sep, 2022",
-			"isPublic": true
-		}
-	},
-	{
-		"Memory Card": {
-			"title": "Memory Card",
-			"demo": "https://tonyg89.github.io/JS-memoryCard/",
-			"type": "concentration (card game), courses",
-			"features":["Shuffle Array",
-				"CSS3 Transitions",
-				"Flip Animation"],
-			"description": "A memory matching game where identical cards are placed on a table. The player's task is to find and match all the pairs of identical cards. The game is developed using pure JavaScript, incorporating the Shuffle Array algorithm for shuffling the cards, CSS3 transitions for smooth animations, and flip animation to create effects when cards are revealed or hidden.",
+			"description": "This web application is designed to track football matches between three teams. Each game lasts until one team scores 2 goals or 7 minutes have passed, with the team that plays longer replacing the other in case of a draw. Results are recorded in a table, making it easy to track match outcomes and analyze performance. The app helps organize and streamline games, providing clear statistics and scores.",
 			"technologies": [
-				"SCSS",
-				"JavaScript"
+				"javascript",
+				"vue",
+				"vite",
+				"ag-grid",
+				"tailwind",
+				"vercel"
 			],
-			"code": "https://github.com/TonyG89/JS-memoryCard",
-			"rate": 2,
-			"purpose": "Kottans.Stage0",
-			"created": "Sep, 2022",
-			"isPublic": true
+			"code": "https://github.com/TonyG89/VUE_TAILWIND_footballweekend",
+			"rate": 1,
+			"purpose": "personal",
+			"created": "May, 2023",
+			"isPublic": false
 		}
 	},
 	{
 		"BLANK CLOTHES": {
-			"title": "BLANK CLOTHES",
+			"title": "Blank Clothes",
+			"image_name": "blank-clothes",
 			"demo": "https://tmpc-react-3u309zdol-okylistik.vercel.app/",
 			"type": "shop REACT",
 			"features":[],
@@ -124,19 +93,19 @@
 				"Redux Toolkit",
 				"Debounce",
 				"Code Splitting",
-				"CSS-Modules",
 				"Responsive design"
 			],
 			"code": "https://github.com/TonyG89/REACT-TYPESCRIPT-tmp-v2",
 			"rate": 2,
 			"purpose": "Archakov Blog",
-			"created": "Dec 8, 2022",
-			"isPublic": true
+			"created": "Dec, 2022",
+			"isPublic": false
 		}
 	},
 	{
 		"Developers": {
 			"title": "Developers",
+			"image_name": "developers",
 			"demo": "https://tonyg89.github.io/developers-ad-landing-TEST/",
 			"type": "one page",
 			"features":[],
@@ -151,12 +120,13 @@
 			"rate": 3,
 			"purpose": "test task",
 			"created": "Dec, 2022",
-			"isPublic": true
+			"isPublic": false
 		}
 	},
 	{
 		"NoBank": {
-			"title": "HoBank Mockup",
+			"title": "HoBank",
+			"image_name": "hobank",
 			"demo": "https://react-tailwind-nobank.vercel.app/",
 			"type": "landing page",
 			"features":[],
@@ -166,12 +136,50 @@
 			"rate": 3,
 			"purpose": "video tutorial",
 			"created": "Dec, 2022",
-			"isPublic": true
+			"isPublic": false
+		}
+	},
+	{
+		"Frogger": {
+			"title": "Frogger",
+			"image_name": "frogger",
+			"demo": "https://tonyg89.github.io/JS-OOP-frogger/",
+			"type": "classic arcade game, courses",
+			"features":[],
+			"description": "A game based on the classic arcade Frogger, where the player must cross the road while avoiding obstacles. It is implemented using object-oriented programming (OOP), with classes for the player and enemies, utilizing methods for collision detection and controlling the movement of objects.",
+			"technologies": ["javascript", "OOP"],
+			"code": "https://github.com/TonyG89/JS-OOP-frogger/blob/master/js/app.js",
+			"rate": 2,
+			"purpose": "course Kottans",
+			"created": "Sep, 2022",
+			"isPublic": false
+		}
+	},
+	{
+		"Memory Card": {
+			"title": "Memory Card",
+			"image_name": "memory-card",
+			"demo": "https://tonyg89.github.io/JS-memoryCard/",
+			"type": "concentration (card game), courses",
+			"features":["Shuffle Array",
+				"CSS3 Transitions",
+				"Flip Animation"],
+			"description": "A memory matching game where identical cards are placed on a table. The player's task is to find and match all the pairs of identical cards. The game is developed using pure JavaScript, incorporating the Shuffle Array algorithm for shuffling the cards, CSS3 transitions for smooth animations, and flip animation to create effects when cards are revealed or hidden.",
+			"technologies": [
+				"SCSS",
+				"JavaScript"
+			],
+			"code": "https://github.com/TonyG89/JS-memoryCard",
+			"rate": 2,
+			"purpose": "course Kottans",
+			"created": "Sep, 2022",
+			"isPublic": false
 		}
 	},
 	{
 		"demontazh.kiev": {
 			"title": "demontazh.kiev",
+			"image_name": "demontazh.kiev",
 			"demo": "https://tonyg89.github.io/demontazh.kiev.ua/",
 			"type": "landing page",
 			"features":[],
@@ -181,12 +189,13 @@
 			"rate": 4,
 			"purpose": "freelance",
 			"created": "2014-2015",
-			"isPublic": true
+			"isPublic": false
 		}
 	},
 	{
 		"LogBook": {
 			"title": "LogBook",
+			"image_name": "LogBook",
 			"demo": "https://logbook-v2-test.vercel.app/",
 			"type": "Vue app",
 			"features":[],
@@ -208,6 +217,7 @@
 	{
 		"Friends-app": {
 			"title": "Friends-app",
+			"image_name": "Friends-app",
 			"demo": "https://tonyg89.github.io/friends-app/",
 			"type": "component, courses",
 			"features":[],
@@ -219,13 +229,14 @@
 			],
 			"code": "https://github.com/TonyG89/friends-app",
 			"rate": 4,
-			"purpose": "Kottans.Stage0",
+			"purpose": "course Kottans",
 			"created": "Oct 1, 2022"
 		}
 	},
 	{
 		"PLAIN CLOTHES": {
 			"title": "PLAIN CLOTHES",
+			"image_name": "plain-clothes",
 			"demo": "https://tonyg89.github.io/REACT-TooMuch",
 			"type": "shop REACT",
 			"features":[],
