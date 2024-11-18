@@ -107,36 +107,11 @@ const countData = (resource = "") => {
 	};
 };
 
-const cvClass = document.querySelector(".cv");
-
-cvClass.addEventListener("click", () => counter("portfolio->cv"));
-
-function counter(msg = "") {
-	fetch("https://634becd4d90b984a1e422fcb.mockapi.io/portfolio_counter", {
-		method: "POST",
-		headers: { "content-type": "application/json" },
-		body: JSON.stringify(countData(msg)),
-	})
-		.then((res) => {
-			if (res.ok) {
-				return res.json();
-			}
-		})
-		.catch((error) => console.log(error));
-}
-
-counter("portfolio");
-
-
-
-
 table.addEventListener("click", (event) => {
-	console.log('xxx')
   if (event.target === dialog) {
     dialog.close();
   }
 });
-
 
 const renderData = (data, loaded = true) => {
 	const timerFlag = [0, 2000];
@@ -206,23 +181,17 @@ const renderData = (data, loaded = true) => {
 
 table.addEventListener("click", (event) => {
 
-  // Открытие диалога при клике на изображение
   if (event.target.tagName === "IMG" && event.target.classList.contains("cursor-pointer")) {
-    dialogImage.src = event.target.src; // Устанавливаем выбранное изображение
-    dialog.showModal(); // Показываем диалог
+    dialogImage.src = event.target.src; 
+    dialog.showModal(); 
   }
 
-  // Закрытие диалога при клике на него
-	// console.log(1,event.target)
-	// console.log(2,dialog)
-	// console.log(2,dialogImage)
   if (event.target === dialog || event.target === dialogImage) {
     dialog.close();
   }
 });
 
 document.addEventListener("click", (event) => {
-	console.log(event.target)
 	if (event.target === dialog || event.target === dialogImage) {
     dialog.close();
   }
