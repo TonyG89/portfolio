@@ -151,7 +151,7 @@ const renderData = (data, loaded = true) => {
 																						}</div>
 
 <div class="flex flex-col mb-1 pb-2 flex-1 justify-between" style="border-bottom: 2px solid #ffffff6b">
-<img src="/images/${project.image_name}.png" alt="${project.title}" class="w-full mt-2 h-auto cursor-pointer" />
+<img src="./images/${project.image_name}.png" alt="${project.title}" class="w-full mt-2 h-auto cursor-pointer" />
 <p class="mt-2 mb-auto cursor-default stroke_text">${project.description}</p>
                                            </div> 
 																						<ul
