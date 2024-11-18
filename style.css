@@ -1,6 +1,7 @@
+
 p{
 	font-family: 'fanttasy', 'Times New Roman', Times, serif;
-	text-align: jus
+	text-align: justify;
 }
 
 .font_fredericka{
@@ -22,17 +23,20 @@ p{
 .box-border {
   transition: all 1.3s ease-in-out;
 	.btn-demo{
-		visibility: hidden;
-		opacity:0;
+		/* visibility: hidden;
+		opacity:0; */
 		transition: all 0.3s ease-in-out;
 	}
 }
+
+
 .techno{
 	display:flex;
 	flex-wrap: wrap;
 	list-style-type: none;
 	margin-left: -10px;
-	height: 45px;
+	height: 47px;
+	align-content: flex-start;
 	li:before {
 		content: "・";
 		width: 100%;
@@ -42,14 +46,20 @@ p{
 	}
 }
 
+.img[alt="Memory Card"]{
+
+}
+.stack_block{
+	height: 16px;
+}
 
 .box-border:hover {
 	transition: all 0.4s ease-in-out;
   transform: translateX(-1px) translateY(-1px) ;
-  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.758);
+  box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.758);
 	.btn-demo{
-		visibility: visible;
-		opacity:1;
+		/* visibility: visible;
+		opacity:1; */
 		transition: all 0.4s ease-in-out;
 	}
 }
@@ -92,7 +102,7 @@ btn:hover{
 }
 
 .card{
-	max-width: 360px;
+	max-width: 460px;
 }
 
 .smiley {
@@ -119,6 +129,7 @@ btn:hover{
 	animation-name: mouth2;
 	visibility: hidden;
 }
+
 
 /* MODAL WINDOW */
  /* Стили для модального фона */
@@ -160,6 +171,27 @@ btn:hover{
 	display: none; /* Скрыто по умолчанию */
 }
 
+.image-dialog {
+  border: none;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.8);
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-content {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.image-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.8);
+}
 
 /* Dark theme */
 @media (prefers-color-scheme: dark) {

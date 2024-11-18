@@ -57,8 +57,8 @@
 	},
 	{
 		"Football Weekends": {
-			"title": "Football Weekends",
-			"image_name": "football-weekends",
+			"title": "Football Weekend",
+			"image_name": "football-weekend",
 			"demo": "https://spartak-on-saturday.vercel.app/",
 			"type": "Vue app",
 			"features":[],
@@ -82,7 +82,7 @@
 		"BLANK CLOTHES": {
 			"title": "Blank Clothes",
 			"image_name": "blank-clothes",
-			"demo": "https://tmpc-react-3u309zdol-okylistik.vercel.app/",
+			"demo": "https://tmpc-react.vercel.app/",
 			"type": "shop REACT",
 			"features":[],
 			"description": "Part of the functionality of the online store for selling blank apparel includes product filtering by categories and size, search by name, pagination for easy browsing of a large assortment, adding products to the cart, as well as cart management with the ability to change quantities and remove items.",
@@ -120,7 +120,7 @@
 			"rate": 3,
 			"purpose": "test task",
 			"created": "Dec, 2022",
-			"isPublic": false
+			"isPublic": true
 		}
 	},
 	{
@@ -133,7 +133,7 @@
 			"description": "This project is a responsive homepage for a fictional bank, developed to practice layout and styling skills. The page has a clean and modern design but limited functionality, as its primary purpose was to showcase adaptive layout techniques and styling.",
 			"technologies": ["React", "Tailwind css", "Responsive design"],
 			"code": "https://github.com/TonyG89/REACT-TAILWIND-nobank",
-			"rate": 3,
+			"rate": 4,
 			"purpose": "video tutorial",
 			"created": "Dec, 2022",
 			"isPublic": false
@@ -152,7 +152,7 @@
 			"rate": 2,
 			"purpose": "course Kottans",
 			"created": "Sep, 2022",
-			"isPublic": false
+			"isPublic": true
 		}
 	},
 	{
@@ -166,6 +166,7 @@
 				"Flip Animation"],
 			"description": "A memory matching game where identical cards are placed on a table. The player's task is to find and match all the pairs of identical cards. The game is developed using pure JavaScript, incorporating the Shuffle Array algorithm for shuffling the cards, CSS3 transitions for smooth animations, and flip animation to create effects when cards are revealed or hidden.",
 			"technologies": [
+				"HTML",
 				"SCSS",
 				"JavaScript"
 			],
@@ -173,7 +174,7 @@
 			"rate": 2,
 			"purpose": "course Kottans",
 			"created": "Sep, 2022",
-			"isPublic": false
+			"isPublic": true
 		}
 	},
 	{

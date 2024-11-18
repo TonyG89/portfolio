@@ -1,6 +1,8 @@
 const table = document.querySelector(".table-card");
 const chips = document.querySelector(".chips");
 const loader = document.querySelector("svg");
+const dialog = document.getElementById("imageDialog");
+const dialogImage = document.getElementById("dialogImage");
 
 let chipsContent = [
 	"ALL",
@@ -125,6 +127,17 @@ function counter(msg = "") {
 
 counter("portfolio");
 
+
+
+
+table.addEventListener("click", (event) => {
+	console.log('xxx')
+  if (event.target === dialog) {
+    dialog.close();
+  }
+});
+
+
 const renderData = (data, loaded = true) => {
 	const timerFlag = [0, 2000];
 	setTimeout(() => {
@@ -139,7 +152,7 @@ const renderData = (data, loaded = true) => {
 					let technologiesBlock = "";
 					stack.forEach(
 						(stack) =>
-							(technologiesBlock += `<li class="text-amber-100 cursor-default text-sm">${stack}</li>`)
+							(technologiesBlock += `<li class="stack_block text-amber-100 cursor-default text-sm">${stack}</li>`)
 					);
 					table.innerHTML += `<div
                                         class="card font_fredericka box-border
@@ -150,7 +163,7 @@ const renderData = (data, loaded = true) => {
                                         border rounded-md mb-4 p-3
                                         flex flex-col justify-start"
                                         >
-																				<div class="border-b-4 mt-1 w-full flex justify-between items-baseline">
+																				<div class="border-b-4 mt-1 mb-2 pb-1 w-full flex justify-between items-baseline">
                                             <h2 class="text-xl cursor-default stroke_text">
 																						${project.title}
 																							</h2>
@@ -162,8 +175,8 @@ const renderData = (data, loaded = true) => {
 																							project.created
 																						}</div>
 
-<div class="flex flex-col mb-2 pb-2 flex-1 justify-between" style="border-bottom: 2px solid #ffffff6b">
-<img src="/images/${project.image_name}.png" alt="${project.title}" class="w-full mt-2 h-auto cursor-pointer">
+<div class="flex flex-col mb-1 pb-2 flex-1 justify-between" style="border-bottom: 2px solid #ffffff6b">
+<img src="/images/${project.image_name}.png" alt="${project.title}" class="w-full mt-2 h-auto cursor-pointer" />
 <p class="mt-2 mb-auto cursor-default stroke_text">${project.description}</p>
                                            </div> 
 																						<ul
@@ -191,8 +204,33 @@ const renderData = (data, loaded = true) => {
 	}, timerFlag[loaded ? 0 : 1]);
 };
 
+table.addEventListener("click", (event) => {
+
+  // Открытие диалога при клике на изображение
+  if (event.target.tagName === "IMG" && event.target.classList.contains("cursor-pointer")) {
+    dialogImage.src = event.target.src; // Устанавливаем выбранное изображение
+    dialog.showModal(); // Показываем диалог
+  }
+
+  // Закрытие диалога при клике на него
+	// console.log(1,event.target)
+	// console.log(2,dialog)
+	// console.log(2,dialogImage)
+  if (event.target === dialog || event.target === dialogImage) {
+    dialog.close();
+  }
+});
+
+document.addEventListener("click", (event) => {
+	console.log(event.target)
+	if (event.target === dialog || event.target === dialogImage) {
+    dialog.close();
+  }
+	
+});
+
 loadData(true);
-popup()
+// popup()
 // const refreshData = async () => {
 //     // loadData()
 //     setTimeout(() => {
