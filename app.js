@@ -129,50 +129,51 @@ const renderData = (data, loaded = true) => {
 						(stack) =>
 							(technologiesBlock += `<li class="stack_block text-amber-100 cursor-default text-sm">${stack}</li>`)
 					);
-					table.innerHTML += `<div
-                                        class="card font_fredericka box-border
-                                        text-teal-50
-                                        w-full
-                                        mx-auto
-																				relative
-                                        border rounded-md mb-4 p-3
-                                        flex flex-col justify-start"
-                                        >
-																				<div class="border-b-4 mt-1 mb-2 pb-1 w-full flex justify-between items-baseline">
-                                            <h2 class="text-xl cursor-default stroke_text">
-																						${project.title}
-																							</h2>
-																							<span class="hint cursor-default stroke_text" >
-																									${project.purpose}
-																								</span>
-																								</div>
-																						<div class=" cursor-default text-right align-text-top absolute date " style="font-family: 'Caveat', cursive;">${
-																							project.created
-																						}</div>
-
-<div class="flex flex-col mb-1 pb-2 flex-1 justify-between" style="border-bottom: 2px solid #ffffff6b">
-<img src="./images/${project.image_name}.png" alt="${project.title}" class="w-full mt-2 h-auto cursor-pointer" />
-<p class="mt-2 mb-auto cursor-default stroke_text">${project.description}</p>
-                                           </div> 
-																						<ul
-                                            class="techno uppercase mb-2 stroke_text"
-                                            style="font-family: 'Caveat', cursive;"
-                                            >
-                                                ${technologiesBlock}
-                                            </ul>
-                                            <div class="flex mt-auto justify-between place-items-center ">
-                                                ${!!project.code && project.isPublic ?`<btn class="btn-code border-2 rounded-xl stroke_text px-2 py-1 border-amber-200 text-amber-200 hover:border-amber-400 hover:text-amber-400 hover:">
-                                                    <a class="uppercase" href="${
-																											project.code
-																										}" target="_blank">Code</a>
-                                                </btn>` : ''}
-                                                <btn class="btn-demo ml-auto border-2 rounded-xl px-2 py-1 stroke_text border-lime-200 text-lime-200  hover:border-lime-400 hover:text-lime-400 hover:">
-                                                    <a class="uppercase" href="${
-																											project.demo
-																										}" target="_blank">WATCH demo</a>
-                                                </btn>
-                                            </div>
-                                        </div>`;
+					table.innerHTML += `
+					<div
+						class="card font_fredericka box-border
+						text-teal-50
+						w-full
+						mx-auto
+						relative
+						border rounded-md mb-4 p-3
+						flex flex-col justify-start"
+						>
+						<div class="border-b-4 mt-1 mb-2 pb-1 w-full flex justify-between items-baseline">
+						    <h2 class="text-xl cursor-default stroke_text">
+								${project.title}
+									</h2>
+									<span class="hint cursor-default stroke_text" >
+											${project.purpose}
+										</span>
+										</div>
+								<div class=" cursor-default text-right align-text-top absolute date " style="font-family: 'Caveat', cursive;">${
+									project.created
+								}
+								</div>
+								<div class="flex flex-col mb-1 pb-2 flex-1 justify-between" style="border-bottom: 2px solid #ffffff6b">
+									<img src="./images/${project.image_name}.png" alt="${project.title}" class="w-full mt-2 h-auto cursor-pointer" />
+									<p class="mt-2 mb-auto cursor-default stroke_text">${project.description}</p>
+						   </div> 
+								<ul
+						    class="techno uppercase mb-2 stroke_text"
+						    style="font-family: 'Caveat', cursive;"
+						    >
+						        ${technologiesBlock}
+						    </ul>
+						    <div class="flex mt-auto justify-between place-items-center ">
+						        ${!!project.code && project.isPublic ?`<btn class="btn-code border-2 rounded-xl stroke_text px-2 py-1 border-amber-200 text-amber-200 hover:border-amber-400 hover:text-amber-400 hover:">
+						            <a class="uppercase" href="${
+													project.code
+												}" target="_blank">Code</a>
+						        </btn>` : ''}
+						        <btn class="btn-demo ml-auto border-2 rounded-xl px-2 py-1 stroke_text border-lime-200 text-lime-200  hover:border-lime-400 hover:text-lime-400 hover:">
+						            <a class="uppercase" href="${
+													project.demo
+												}" target="_blank">WATCH demo</a>
+						        </btn>
+						    </div>
+						</div>`;
 				}
 			}
 		}

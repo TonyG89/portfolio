@@ -5,12 +5,12 @@
 			"image_name": "Driver Logbook",
 			"demo": "",
 			"type": "Vue app",
-			"features":[],
+			"features": [],
 			"description": "",
 			"technologies": [],
 			"code": "",
 			"rate": 5,
-			"purpose": "personal",
+			"purpose": "self",
 			"created": "",
 			"isPublic": false
 		}
@@ -21,14 +21,40 @@
 			"image_name": "Football Playbook",
 			"demo": "",
 			"type": "Vue app",
-			"features":[],
+			"features": [],
 			"description": "",
 			"technologies": [],
 			"code": "",
 			"rate": 5,
-			"purpose": "personal",
+			"purpose": "self",
 			"created": "",
 			"isPublic": false
+		}
+	},
+	{
+		"Weather App": {
+			"title": "Weather App",
+			"image_name": "weather-app",
+			"demo": "https://weather-application-seven-sandy.vercel.app",
+			"type": "Vue app",
+			"features": [],
+			"description": "This application provides up-to-date weather information for various locations, allowing users to add up to 5 favorite places. Additionally, it features a graph that displays weather trends throughout the day for a more comprehensive view.",
+			"technologies": [
+				"vue",
+				"vite",
+				"i18n",
+				"Chart.js",
+				"debounce",
+				"skeleton-preloader",
+				"localStorage",
+				"vercel",
+				"Responsive design"
+			],
+			"code": "https://github.com/TonyG89/WeatherApplication_test",
+			"rate": 1,
+			"purpose": "test task",
+			"created": "Dec, 2024",
+			"isPublic": true
 		}
 	},
 	{
@@ -37,7 +63,7 @@
 			"image_name": "todolist",
 			"demo": "https://todolist-tony.vercel.app/",
 			"type": "Vue app",
-			"features":[],
+			"features": [],
 			"description": "A web application for task management that allows users to add, edit, delete, and move tasks between lists. All data is saved in localStorage, ensuring the app’s state persists after a page reload. A simple and functional solution for task organization.",
 			"technologies": [
 				"javascript",
@@ -61,7 +87,7 @@
 			"image_name": "football-weekend",
 			"demo": "https://spartak-on-saturday.vercel.app/",
 			"type": "Vue app",
-			"features":[],
+			"features": [],
 			"description": "This web application is designed to track football matches between three teams. Each game lasts until one team scores 2 goals or 7 minutes have passed, with the team that plays longer replacing the other in case of a draw. Results are recorded in a table, making it easy to track match outcomes and analyze performance. The app helps organize and streamline games, providing clear statistics and scores.",
 			"technologies": [
 				"javascript",
@@ -73,7 +99,7 @@
 			],
 			"code": "https://github.com/TonyG89/VUE_TAILWIND_footballweekend",
 			"rate": 1,
-			"purpose": "personal",
+			"purpose": "self",
 			"created": "May, 2023",
 			"isPublic": false
 		}
@@ -84,7 +110,7 @@
 			"image_name": "blank-clothes",
 			"demo": "https://tmpc-react.vercel.app/",
 			"type": "shop REACT",
-			"features":[],
+			"features": [],
 			"description": "Part of the functionality of the online store for selling blank apparel includes product filtering by categories and size, search by name, pagination for easy browsing of a large assortment, adding products to the cart, as well as cart management with the ability to change quantities and remove items.",
 			"technologies": [
 				"SCSS",
@@ -108,7 +134,7 @@
 			"image_name": "developers",
 			"demo": "https://tonyg89.github.io/developers-ad-landing-TEST/",
 			"type": "one page",
-			"features":[],
+			"features": [],
 			"description": "A single-page application with smooth state transitions for elements such as a burger menu, slider, accordion, and carousel. The logic for these elements was also developed independently. The design features a multi-layered background made of small elements that create a dynamic and engaging effect.",
 			"technologies": [
 				"HTML",
@@ -129,9 +155,13 @@
 			"image_name": "hobank",
 			"demo": "https://react-tailwind-nobank.vercel.app/",
 			"type": "landing page",
-			"features":[],
+			"features": [],
 			"description": "This project is a responsive homepage for a fictional bank, developed to practice layout and styling skills. The page has a clean and modern design but limited functionality, as its primary purpose was to showcase adaptive layout techniques and styling.",
-			"technologies": ["React", "Tailwind css", "Responsive design"],
+			"technologies": [
+				"React",
+				"Tailwind css",
+				"Responsive design"
+			],
 			"code": "https://github.com/TonyG89/REACT-TAILWIND-nobank",
 			"rate": 4,
 			"purpose": "video tutorial",
@@ -145,9 +175,12 @@
 			"image_name": "frogger",
 			"demo": "https://tonyg89.github.io/JS-OOP-frogger/",
 			"type": "classic arcade game, courses",
-			"features":[],
+			"features": [],
 			"description": "A game based on the classic arcade Frogger, where the player must cross the road while avoiding obstacles. It is implemented using object-oriented programming (OOP), with classes for the player and enemies, utilizing methods for collision detection and controlling the movement of objects.",
-			"technologies": ["javascript", "OOP"],
+			"technologies": [
+				"javascript",
+				"OOP"
+			],
 			"code": "https://github.com/TonyG89/JS-OOP-frogger/blob/master/js/app.js",
 			"rate": 2,
 			"purpose": "course Kottans",
@@ -161,9 +194,11 @@
 			"image_name": "memory-card",
 			"demo": "https://tonyg89.github.io/JS-memoryCard/",
 			"type": "concentration (card game), courses",
-			"features":["Shuffle Array",
+			"features": [
+				"Shuffle Array",
 				"CSS3 Transitions",
-				"Flip Animation"],
+				"Flip Animation"
+			],
 			"description": "A memory matching game where identical cards are placed on a table. The player's task is to find and match all the pairs of identical cards. The game is developed using pure JavaScript, incorporating the Shuffle Array algorithm for shuffling the cards, CSS3 transitions for smooth animations, and flip animation to create effects when cards are revealed or hidden.",
 			"technologies": [
 				"HTML",
@@ -183,9 +218,13 @@
 			"image_name": "demontazh.kiev",
 			"demo": "https://tonyg89.github.io/demontazh.kiev.ua/",
 			"type": "landing page",
-			"features":[],
+			"features": [],
 			"description": "",
-			"technologies": ["HTML", "CSS", "PHP"],
+			"technologies": [
+				"HTML",
+				"CSS",
+				"PHP"
+			],
 			"code": "https://github.com/TonyG89/demontazh.kiev.ua",
 			"rate": 4,
 			"purpose": "freelance",
@@ -199,7 +238,7 @@
 			"image_name": "LogBook",
 			"demo": "https://logbook-v2-test.vercel.app/",
 			"type": "Vue app",
-			"features":[],
+			"features": [],
 			"description": "",
 			"technologies": [
 				"javascript",
@@ -221,7 +260,7 @@
 			"image_name": "Friends-app",
 			"demo": "https://tonyg89.github.io/friends-app/",
 			"type": "component, courses",
-			"features":[],
+			"features": [],
 			"description": "",
 			"technologies": [
 				"javascript (fetch,  async/await)",
@@ -240,7 +279,7 @@
 			"image_name": "plain-clothes",
 			"demo": "https://tonyg89.github.io/REACT-TooMuch",
 			"type": "shop REACT",
-			"features":[],
+			"features": [],
 			"description": "",
 			"technologies": [
 				"ReactJS(Hooks,  Router,  Context,  Skeleton)",
